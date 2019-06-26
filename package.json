@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:knex": "nodemon --exec babel-node ./db/index.js",
+    "dev:gql": "nodemon --exec babel-node ./index.js",
+    "dev:api": "nodemon --exec babel-node ./api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "knex": "^0.17.6",
+    "nanoid": "^2.0.3",
+    "pg": "^7.11.0",
+    "uniqid": "^5.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "nodemon": "^1.19.1"
+  }
+}
