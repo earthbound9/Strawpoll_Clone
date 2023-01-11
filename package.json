@@ -14,7 +14,7 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
-    "knex": "^0.17.6",
+    "knex": "^2.4.0",
     "nanoid": "^2.0.3",
     "pg": "^7.11.0",
     "uniqid": "^5.0.3"
